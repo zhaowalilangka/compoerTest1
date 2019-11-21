@@ -1,0 +1,13 @@
+{
+	"name": "zhaowalilangka/test1",
+	"descriptions": "this is my first package",
+	"require" : {
+		"php": "^7.2"
+	},
+	"minimum-stability": "dev",
+	"autoload": {
+		"psr-4": {
+			"zhaowalilangka\\test1\\": "libs/"
+		}
+	}
+}
